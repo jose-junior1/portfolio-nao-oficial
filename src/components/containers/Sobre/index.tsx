@@ -5,11 +5,11 @@ import { GitHubSecao } from './styles'
 const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre mim</Titulo>
+    <Paragrafo tipo="principal">Olá! Eu sou o José Junior</Paragrafo>
     <Paragrafo tipo="principal">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-      neque perferendis suscipit adipisci. Soluta maxime optio perspiciatis
-      accusantium labore vel, quia eius recusandae earum. Molestias, quidem.
-      Recusandae magnam soluta eligendi?
+      Desenvolvedor Front-End em formação, apaixonado por tecnologia, interfaces
+      bonitas e código limpo. Atualmente cursando Engenharia Front-End pela EBAC
+      e aplicando meus conhecimentos com projetos práticos.
     </Paragrafo>
     <GitHubSecao>
       <img src="https://github-readme-stats.vercel.app/api?username=jose-junior1&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />

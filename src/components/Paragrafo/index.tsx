@@ -4,9 +4,14 @@ export type Props = {
   children: string
   color?: string
   tipo?: 'principal' | 'secundario'
+  fontSize?: number
 }
 
-const Paragrafo = ({ children, tipo = 'principal' }: Props) => {
-  return <P tipo={tipo}>{children}</P>
+const Paragrafo = ({ children, tipo = 'principal', fontSize }: Props) => {
+  return (
+    <P fontSize={fontSize} tipo={tipo}>
+      {children}
+    </P>
+  )
 }
 export default Paragrafo
